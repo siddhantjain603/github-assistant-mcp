@@ -129,13 +129,14 @@ git clone https://github.com/yourusername/github-assistant-mcp.git
 cd github-assistant-mcp
 ```
 
-### Step 2: Create and Activate Virtual Environment
+### Step 2: Create and Activate Virtual Environment using UV
 
 ```bash
-python -m venv .venv
+uv init
+uv venv
 
 # Windows
-.venv\Scripts\activate
+source .venv\Scripts\activate
 
 # Mac/Linux
 source .venv/bin/activate
@@ -144,7 +145,7 @@ source .venv/bin/activate
 ### Step 3: Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 ---
