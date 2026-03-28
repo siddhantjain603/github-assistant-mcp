@@ -1,0 +1,8 @@
+mcp
+PyGithub
+openai
+langchain
+langchain-openai
+python-dotenv
+fastapi
+uvicorn
